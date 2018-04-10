@@ -1,10 +1,15 @@
+body {
+  background-color: #FFC992;
+}
 #main {
   margin-left: 2rem;
   margin-right: 2rem;
+
 }
 
 .product-list-section {
   padding: 2rem 5rem 3.75rem 5rem;
+
 }
 
 .shopping-cart {
@@ -60,10 +65,36 @@ input {
 
 .total .description h3{
   float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  color: #2A1500;
+  font-size: 2rem;
 }
+
+.description h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  color: #2A1500;
+
+}
+
 .total .description span{
   float: right;
   padding-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.description span {
+  color: brown;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.count {
+  font-family: 'Roboto', sans-serif;
+  color: #2A1500;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 #main .button {
