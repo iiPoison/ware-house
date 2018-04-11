@@ -8,16 +8,27 @@
   background-size: cover;
   background-position: center;
   font-weight: bold;
-  color: Black;
+  color: white;
   font-size: 4rem;
   font-family: 'Julius Sans One', sans-serif;
   letter-spacing: 7px;
   box-shadow: 0 0 15px #2A1500;
 }
 
+.about h1 span {
+  padding: 1rem;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+
 .about .information {
   padding: 3.75rem 20% 6.75rem 20%;
   color: hsla(0, 0%, 29%, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about h3 {
@@ -34,15 +45,18 @@
   font-size: 1.3rem;
   color: #48290A;
   font-weight: bold;
+  width: 50%;
+  text-align: left;
+  text-indent: 15px;
 }
 
 .about .join {
   display: grid;
   justify-items: center;
   padding: 1.5rem 0;
-  box-shadow: 0 0 15px #2A1500;
   border-radius: 2px;
   background-color: #DE9C5A;
+  width: 50%;
 }
 
 .join h3 {
