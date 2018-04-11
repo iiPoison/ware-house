@@ -190,24 +190,56 @@ border: 2px solid #01242F;
 
 
 /* Reusable Component - Navigation Breadcrumbs */
+
 ul.breadcrumb {
     padding: 2rem 4rem;
     list-style: none;
     align-items: left;
+    font-size: 1.2rem;
 }
-ul.breadcrumb li {
-    display: inline;
-    font-size: inherit;
-    align-items: left;
+
+.breadcrumb li::after {
+  padding-right: 0.5rem;
 }
-ul.breadcrumb li+li:before {
-    padding: 2rem;
-    color: hsla(0, 0%, 29%, 1);
-    content: "/\00a0";
+
+.breadcrumb li::before {
+  padding-left: 0.5rem;
 }
-ul.breadcrumb li a {
-    color: hsla(0, 0%, 29%, 1);
-    text-decoration: none;
+
+.breadcrumb > li{
+  display: inline;
+  text-decoration: none;
+}
+
+.breadcrumb li+li::before {
+  content: " > ";
+  padding: 0 0.5rem;
+}
+
+.attribute {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #48290A;
+  font-size: 1.5rem;
+}
+
+.attribute::before {
+  content: " > ";
+  color: #48290A;
+  font-weight: bold
+}
+
+.breadcrumb li.attribute::after {
+  content: "x";
+  color: red;
+  font-size: 10px;
+  vertical-align: super;
+  padding-left: 3px;
+}
+
+.behind-crumbs {
+  color: #6A431D;
+  font-weight: bold;
 }
 
 
