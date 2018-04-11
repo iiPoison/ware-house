@@ -356,9 +356,7 @@ nav a:visted {
   display: grid;
   justify-items: center;
   text-align: center;
-  /*background-color: hsla(0, 0%, 98%, 1);*/
-  background-color: #FFC992;
-  /*border-top: 1px solid hsla(0, 0%, 98%, 1);*/
+  background-color: #FFC992;  
 }
 
 #main h2 {
