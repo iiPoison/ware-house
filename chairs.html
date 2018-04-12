@@ -21,7 +21,7 @@
       </div>
       <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
     </header>
-    <nav>
+    <nav aria-label="Main Navigation">
       <a class="top-menu" href="deals.html">Today's Deals</a>
       <a class="top-menu" href="products.html">Products</a>
       <a class="top-menu" href="about.html">About Us</a>
@@ -31,22 +31,22 @@
 
     <!-- Chairs Section -->
 
-    <div id="main" class="product-list-section">
+    <div id="main" class="product-list-section" role="main">
       <ul class="breadcrumb">
         <li class="behind-crumbs"><a href="products.html">All Products</a></li>
         <li class="behind-crumbs"><a href="living.html">Living Room</a></li>
         <li class="attribute"s>Chairs</li>
       </ul>
 
-      <div class="product-list">
+      <div class="product-list" aria-label="product list">
 
 
         <a href="#" class="product-item">
           <div class="image-container">
             <img src="resources/img/chairs/basket-chair.jpg" alt="basket chair">
           </div>
-          <div class="description">
-            <h3>Basket Chair</h3>
+          <div class="description" aria-labelledby="Basket-Chair">
+            <h3 id="Basket-Chair">Basket Chair</h3>
             <span class="price">$139</span>
           </div>
         </a>
@@ -55,8 +55,8 @@
           <div class="image-container">
             <img src="resources/img/chairs/orange-chair.jpg" alt="orange chair">
           </div>
-          <div class="description">
-            <h3>Orange Chair</h3>
+          <div class="description" aria-labelledby="Orange-Chair">
+            <h3 id="Orange-Chair">Orange Chair</h3>
             <span class="price">$229</span>
           </div>
         </a>
@@ -65,8 +65,8 @@
           <div class="image-container">
             <img src="resources/img/chairs/yellow-chair.jpg" alt="yellow chair">
           </div>
-          <div class="description">
-            <h3>Yellow Chair</h3>
+          <div class="description" aria-labelledby="Yellow-Chair">
+            <h3 id="Yellow-Chair">Yellow Chair</h3>
             <span class="price">$189</span>
           </div>
         </a>
@@ -75,8 +75,8 @@
           <div class="image-container">
             <img src="resources/img/chairs/white-chair.jpg" alt="white chair">
           </div>
-          <div class="description">
-            <h3>White Chair</h3>
+          <div class="description" aria-labelledby="Yellow-Chair">
+            <h3 id="Yellow-Chair">White Chair</h3>
             <span class="price">$99</span>
           </div>
         </a>
@@ -88,22 +88,22 @@
 
     <footer aria-label="Footer Navigation">
       <img src="resources/img/home.png" alt="main logo">
-      <ul class="links">
-        <li><h4>Get to know us</h4></li>
+      <ul class="links" aria-labelledby="part-Get-to-know-us">
+        <li><h4 id="part-Get-to-know-us">Get to know us</h4></li>
         <li><a href="about.html">About us</a></li>
         <li><a href="jobs.html">Jobs</a></li>
         <li><a href="#">Investor relations</a></li>
         <li><a href="#">Link</a></li>
       </ul>
-      <ul class="links">
-        <li><h4>Make money with us</h4></li>
+      <ul class="links" aria-labelledby="part-Make-money-with-us">
+        <li><h4 id="part-Make-money-with-us">Make money with us</h4></li>
         <li><a href="sell.html">Sell on WareHouse</a></li>
         <li><a href="#">Become a vendor</a></li>
         <li><a href="#">Fundraiser events</a></li>
         <li><a href="#">Community outreach</a></li>
       </ul>
-      <ul class="links">
-        <li><h4>Help</h4></li>
+      <ul class="links" aria-labelledby="part-Help">
+        <li><h4 id="part-Help">Help</h4></li>
         <li><a href="#">Contact us</a></li>
         <li><a href="#">Conditions of use</a></li>
         <li><a href="#">Report a problem</a></li>
